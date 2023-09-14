@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab" : "https://purl.org/cokomo/v0/meta-model#",
+    "@base" : "https://purl.org/cokomo/CompetenceBase/",
+    "@language": "de-de",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "id": "@id",
+    "title": {
+      "@id": "skos:prefLabel"
+    },
+    "shortDescription": {
+      "@id": "skos:scopeNotes"
+    },
+    "altTerms": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "type": "@type",
+    "edges": {
+      "@context": {
+        "@language": null,
+        "@propagate": false,
+        "edgeType": "@type",
+        "edgeId": "@id"
+      }
+    }
+  }
+}
